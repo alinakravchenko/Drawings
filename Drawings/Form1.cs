@@ -1,4 +1,4 @@
-namespace Drawings
+п»їnamespace Drawings
 {
     public partial class Form1 : Form
     {
@@ -10,7 +10,7 @@ namespace Drawings
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             Graphics graphics = e.Graphics;
-            Pen pn = new Pen(Brushes.DarkBlue, 5); //цвет, толщина линии
+            Pen pn = new Pen(Brushes.DarkBlue, 5); //С†РІРµС‚, С‚РѕР»С‰РёРЅР° Р»РёРЅРёРё
             Rectangle rect = new Rectangle(370, 340, 60, 60);
             e.Graphics.DrawEllipse(pn, rect);
             graphics.DrawLine(new Pen(Brushes.Red, 5), new Point(400, 400), new Point(400, 500));
